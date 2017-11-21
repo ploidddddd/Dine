@@ -1,0 +1,21 @@
+.top-menu {
+    font-family: 'Roboto';
+}
+
+.top-menu> {
+    font-family: 'Roboto';
+}
+
+.header-menu {
+    max-width: 35%;
+}
+
+.content {
+    min-width: 40%;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+#mycart {
+    cursor: pointer;
+}
