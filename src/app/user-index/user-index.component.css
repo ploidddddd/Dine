@@ -1,0 +1,22 @@
+.top-menu {
+    background-color: #663300;
+    font-family: 'Roboto';
+}
+
+.top-menu> {
+    font-family: 'Roboto';
+}
+
+.header-menu {
+    max-width: 35%;
+}
+
+.content {
+    min-width: 40%;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.menu-label {
+    background-color: #663300;
+}
