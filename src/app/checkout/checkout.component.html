@@ -20,7 +20,18 @@
                 <div class='column '>
                     <h2 class='header ' style='font-family:"Roboto Black"'>Soda</h2>
                     <h3 style='font-family: "Roboto Thin"; '>P 80.00</h3>
-                    <h3 style='font-family: "Roboto Light"; float:right;'>x 1</h3>
+                    <div class='ui two column grid' style='font-family: "Roboto Light";'>
+                        <div class='column'>
+                            <span style='font-family: "Roboto Light";'>Qty
+                                <h3>x 1</h3
+                            ></span>
+                        </div>
+                        <div class='column'>
+                            <span style='font-family: "Roboto Light";'>SubTotal
+                                <h3 style='float:right;'>P50000.00</h3>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,14 +44,14 @@
     <div class='ui hidden divider'></div>
     <div class='ui two column grid '>
         <div class='column' style='margin-top:10px;'>
-            <a href=""><i class='left chevron icon '></i>Go back to menu</a>
+            <a routerLink='/cart'><i class='left chevron icon '></i>Go back to Cart</a>
         </div>
         <div class='column '>
-                <a routerLink='/qrcode'>
-                    <button class='ui right floated circular brown button '>
-                        Confirm Order
-                    </button>
-                </a>
+            <a routerLink='/qrcode'>
+                <button class='ui right floated circular brown button '>
+                    Confirm Order
+                </button>
+            </a>
         </div>
     </div>
 </div>
