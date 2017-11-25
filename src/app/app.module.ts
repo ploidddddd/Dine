@@ -9,6 +9,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { CartComponent } from './cart/cart.component';
 import { QrcodeComponent } from './qrcode/qrcode.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { OrderComponent } from './order/order.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './/app-routing.module';
     MenuDisplayComponent,
     CheckoutComponent,
     CartComponent,
-    QrcodeComponent
+    QrcodeComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,

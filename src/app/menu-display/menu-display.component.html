@@ -2,7 +2,7 @@
     <div class='ui borderless brown item inverted menu top-menu' style='text-align:center;'>
         <h3 class='header item' style='color:aliceblue;'>D I N E</h3>
     </div>
-    <div class='ui three column grid' >
+    <div class='ui three column grid'>
         <div class='column' style='margin-left:80px; margin-top:20px;'>
             <h1 class='ui middle aligned brown header' style='font-family:"Roboto Light";'>{{msg}}</h1>
         </div>
@@ -30,7 +30,8 @@
                     <h2 style='font-family: "Roboto Thin"; '>{{p.prodPrice | currency:'PHP':true:'1.2-2'}}</h2>
                 </div>
                 <div class='right floated column '>
-                    <button class='ui small brown icon button' (click)="onClickHere()">
+                    <a routerLink="/order"> <button class='ui fluid brown button'>ORDER</button> </a>
+                    <!-- <button class='ui small brown icon button' (click)="onClickHere()">
                         <i class=' minus icon '></i>
                     </button>
                     <div class='ui disabled input ' style='max-width:50px; padding-right:2px;'>
@@ -38,18 +39,14 @@
                     </div>
                     <button class='ui small brown icon button ' id="{{p.prodID}}" (click)="onClickMe()">
                         <i class='plus icon '></i>
-                    </button>
+                    </button> -->
                 </div>
             </div>
         </div>
     </div>
-    <div class='ui hidden divider '></div>
     <div class='ui two column grid '>
         <div class='column' style='margin-top:10px;'>
             <a routerLink=""><i class='left chevron icon '></i>Go back to menu</a>
-        </div>
-        <div class='column '>
-            <input class='ui right floated input circular brown button ' value='Add to cart '>
         </div>
     </div>
 </div>
