@@ -8,6 +8,7 @@ import { MenuDisplayComponent } from './menu-display/menu-display.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { CartComponent } from './cart/cart.component';
 import { QrcodeComponent } from './qrcode/qrcode.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { QrcodeComponent } from './qrcode/qrcode.component';
     QrcodeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
